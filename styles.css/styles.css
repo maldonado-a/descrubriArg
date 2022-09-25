@@ -1,0 +1,143 @@
+
+*{
+    margin:0px;
+    padding:0px;
+  }
+
+@font-face {
+    font-family: letra;
+    src: url(../font-style/AmsterdamTwoTtf-OVMEe.ttf);
+}
+
+
+.logoArge img{
+
+    width: 12rem;
+    height: 10rem;
+
+    
+    margin-left: 4rem;
+}
+
+
+.registrateUsuario{
+    background: aquamarine;
+    display: flex;
+    justify-content: left;
+    margin-left: 15rem;
+}
+
+
+h1{
+    font-family:letra;
+    display: flex;
+    justify-content: center;
+padding-bottom: 23rem;
+font-size: 3.5rem;
+
+}
+
+
+.carousel-item{
+
+    height: 40rem;
+    width: 100%;
+
+}
+
+
+
+  .footer4kolom{
+    width:100%;
+    overflow:hidden;
+        display:block;
+      background: #01252e;
+      max-height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color:#fff;
+  }
+  .menufoot{
+    width:90%;
+    margin:auto;
+    padding:20px 0px;
+    overflow:hidden;
+  }
+  .menukiri img{
+    margin:0px;
+    padding:0px;
+    width:190px;
+  }
+  .menukiri, .menukanan{
+    width:50%;
+    float:left;
+  }
+  
+  .menukanan ul li{
+    float:right;
+    margin:0px;
+    padding:0px 10px;
+    list-style:none;
+    margin-top:20px;
+  }
+  .mainfooter{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    border-top:1px solid ;
+  }
+  .kolomftr{
+   
+    width:22%;
+    float:left;
+    margin:1%;
+  }
+  .kolomftr h2{
+    font-size:22px;
+    padding:7px 0px;
+    
+    margin-left: 2rem;
+  }
+  .widget-content{
+    margin-top:10px;
+  }
+  .widget-content ul li{
+    margin:0px;
+    padding:5px 0px;
+    list-style:none;
+  }
+  .widget-content a{
+    color:#fff;
+    text-decoration:none;
+  }
+  .creditfoot{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    margin-top:30px;
+    padding:25px 0px;
+    background:#DF4A85;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+  }
+
+  .logoFooter img{
+    width: 15rem;
+
+    margin-right: 10rem;
+
+  }
+
+  @media screen and (max-width: 426px) {
+    .mainfooter{
+      
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-left: 2rem;
+    }
+    
+
+
+  }
