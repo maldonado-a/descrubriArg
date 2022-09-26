@@ -28,7 +28,7 @@
 }
 
 
-h1{
+.tituloPrincipal {
     font-family:letra;
     display: flex;
     justify-content: center;
@@ -137,7 +137,13 @@ font-size: 3.5rem;
        justify-content: center;
        margin-left: 2rem;
     }
-    
+    .tituloPrincipal {
+
+     font-size: 2rem;
+     color: black;
+     
+
+    }
 
 
   }
