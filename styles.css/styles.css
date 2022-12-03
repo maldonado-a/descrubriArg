@@ -20,12 +20,7 @@
 }
 
 
-.registrateUsuario{
-    background: aquamarine;
-    display: flex;
-    justify-content: left;
-    margin-left: 15rem;
-}
+
 
 
 .tituloPrincipal {
@@ -184,83 +179,96 @@ section {
   width: 100%;
 }
 
+
+
+/* form voluntario */
+
+section {
+background-image: url('../img/tuta.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 50rem;
+width: 100%;
+align-items: center;
+}
+
+.div_velo{
+background-color: rgba(0, 0, 0, 0.542);
+height: 31rem;
+width: 100%;
+}
+
 .form_voluntario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  height: 27rem;
-  width: 30%;
-  margin-left: 35%;
-  border-radius: 5px;
-  margin-top: 2rem;
-  padding: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+height: 26rem;
+width: 30%;
+margin-left: 35%;
+border-radius: 5px;
 }
 
-#p_bienevenida {
+/*=== Propiedades para la imagen del fondo del registro===*/
+.login-form {
+  padding: 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../Imagenes/fondo.jpg);
+  background-size: cover;
+  /*=== Propiedades para formulario===*/
+}
+.login-form form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 2px 10px #838282;
+}
+.login-form .form-name {
   text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-top: 5px;
+  margin-bottom: 25px;
+  line-height: 100px;
+}
+.login-form .form-name img {
+  height: 8rem;
+  width: 13rem;
+  padding: 1rem;
+}
+.login-form .item {
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+.login-txt a {
+  text-decoration: none !important;
+  color: black !important;
+}
+/*=== Propiedades para el boton de registro===*/
+.boton_ {
+  background: #01252e;
+  color: white !important;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  margin: 0;
+}
+.boton_:hover, .boton_:focus {
+  background: #928f8f;
+  color: black !important;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+/*=== Media Query para el registro===*/
+@media screen and (max-width: 680px) {
+  .login-form form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 18px;
+  }
 }
 
-.form_voluntario input{
-   border: 1px solid black;
-   outline: none;
-   border-radius: 8px;
-   width: 70%;
-   margin-top: 4px;
-   text-align: center;
-} 
 
-.form_voluntario button{
-  padding: 9px;
-  border-radius: 8px;
-  background-color: #0b60dd;
-  border: none;
-  margin-top: 15px;
-  color: white;
-}
 
-.form_voluntario p{
-  margin-top: 15px;
-}
-
-/* Form iniciar sesion */
-
-.form_iniciasesion{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  height: 15rem;
-  width: 30%;
-  margin-left: 35%;
-  border-radius: 5px;
-  margin-top: 7rem;
-  padding: 30px;
-}
-
-.form_iniciasesion input{
-   border: 1px solid black;
-   outline: none;
-   border-radius: 8px;
-   width: 70%;
-   margin-top: 4px;
-   text-align: center;
-} 
-
-.form_iniciasesion button{
-  padding: 9px;
-  border-radius: 8px;
-  background-color: #0b60dd;
-  border: none;
-  margin-top: 15px;
-  color: white;
-  margin-top: 30px;
-}
-
-.form_iniciasesion p{
-  margin-top: 15px;
-}
 
