@@ -220,6 +220,12 @@ color: white;
   color: white;
 }
 
+
+.form_iniciasesion button a{
+  text-decoration: none;
+  color: white;
+}
+
 .form_iniciasesion p{
   margin-top: 15px;
 }
@@ -281,6 +287,11 @@ color: white;
   background-color: #0b60dd;
   border: none;
   margin-top: 15px;
+  color: white;
+}
+
+.form_voluntario button a{
+  text-decoration: none;
   color: white;
 }
 
@@ -348,6 +359,7 @@ color: white;
       width: 30%;
       height: 8%;
       display: flex;
+      text-decoration: none;
       justify-content: center;
       align-items: center;
       font-family: "Noto Sans Buhid", sans-serif;
@@ -364,12 +376,11 @@ color: white;
 
 /* Publicaciones */
 
-
-
 .publi_background{
   background-color: #ffffff;
 
 }
+
 .wrap{
 	/*max-width: 1100px;*/
 

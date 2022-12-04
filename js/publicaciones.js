@@ -27,7 +27,7 @@ $(document).ready(function(){
 	});
 
 	// MOSTRANDO TODOS LOS PRODUCTOS =======================
-
+	
 	$('.category_item[category="all"]').click(function(){
 		function showAll(){
 			$('.product-item').show();
@@ -35,3 +35,11 @@ $(document).ready(function(){
 		} setTimeout(showAll,400);
 	});
 });
+
+// SIMULACRO PERMITIR ACCECSO A LAS PUBLICACIONES =======================
+
+let product_item = document.getElementById('hos')
+
+product_item.addEventListener('click', () => {
+		alert('Es nesesario estar regsitado para continuar')
+})

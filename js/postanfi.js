@@ -31,6 +31,7 @@ function addElemento(n_d_l, t_d_h,
 button1.addEventListener('click', () => {
   addElemento(n_d_l.value, t_d_h.value, d_d_h.value);
   form_post.style.display = 'none'; 
+  alert('Su publicacion fue creada con exito')
 })
 
 //\\***********\*\*\*\*\*\*\*\*\*\\\\\\\\\\\\\\Suvir imagen//////////////*/*/*/*/*/*/*/*/*/***********//\\
