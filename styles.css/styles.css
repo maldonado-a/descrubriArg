@@ -965,3 +965,66 @@ color: white;
   margin-top: 15px;
 }
 
+
+.wrap_publi{
+	/*max-width: 1100px;*/
+  display: grid;
+  /* justify-content: center; */
+  place-items: center;
+	width: 98%;
+	margin: auto;
+  padding: 3em;
+  border-radius: 1em;
+  background-color: #d4dfee;
+  transition: all 0.4s;
+}
+
+.head_publi{
+  width: 90%;
+	
+	margin-bottom: 25px;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #f9f8f8;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: grid;
+  place-items: center;
+  background-image: url('../img/Leomateoli.png');
+  
+
+}
+
+.cuadrilla{
+  
+  display: grid;
+  place-items: center;
+ grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.info_publi{
+  width: 80%;
+	
+	margin: 25px;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #f9f8f8;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: grid; 
+  
+}
+.chico{
+ 
+  display: grid;
+  min-width: 40%;
+  place-items: center;
+  margin: 1%;
+  min-height: 30vh;
+  opacity: 0.9;
+}
+
+
+.chico:hover{
+  background-color: #d5d4d4;
+}
