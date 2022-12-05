@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puerto Nómade</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css/styles.css">
+    <link rel="shortcut icon" href="../img/Isologo.png" />
+</head>
+<body class="publi_background">
+    <header>
+        <nav class="navbar navbar-expand-lg d-flex justify-content-center ">
+            <div class="container-fluid  d-flex justify-content-center     ">
+              <a class="navbar-brand logoArge " href="../index.html"> <img src="../img/Letras.png" alt=""></a>
+              <nav class="navbar ">
+                <div class="container-fluid">
+                  <form class="d-flex  btn-lg ms-3 " role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success    " type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+              <button class="navbar-toggler   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+                <div class="navbar-nav   ">
+                  <a class="nav-link active d-flex justify-content-center  " aria-current="page" href="../index.html"> Inicio</a>
+                  <a class="nav-link active   d-flex justify-content-center  " href="#">Comunidad</a>
+                  <a class="nav-link active d-flex justify-content-center  " href="publicaciones.html">Elegí tu destino</a>
+                  <a class="nav-link active d-flex justify-content-center  " href="nosotros.html">Nosotros</a>
+
+                  <a class="nav-link  btn btn-primary btn-lg ms-5  " id="nav_link_a_color1" href="regristro.html">Registro</a>
+                  <a class="nav-link  btn btn-primary btn-lg ms-5  " id="nav_link_a_color1" href="postanfi.html">Cuenta</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+
+    <section class="wrap_publi">
+        <div class="head_publi">
+            <h1>Puerto Nómade</h1>
+
+
+            <div class="info_publi">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/hostel-mdq-2.jpg" class="d-block w-50 mx-auto" alt="...">
+                  </div>
+                  
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="cuadrilla">
+
+                <div class="info_publi chico">
+                  <h5>Descripción lugar <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACnklEQVRoge2ay2pUQRCGPy8wM94dNU7cmaiYZzDErSF5A80DCC4UxfEZXAiCoLiMD2EkInjbSMSdxszoLgMqGq9gMGFc9CnoHE7m0l2n+yTkh4I6F6rqn6qu6e7TsIViYZuirSowBowCI8AwMADsTp7/AT4BH4G3wEvgKbCkGIMzysAUMAusAu0+ZQV4BFxIbAVHBbgGtHoItldpAVcT20EwiSkPLQJp+QBM5EmgDNzOkUBapoFd2iQGgTcBSYjMATUtEkOYdIcmIdJMYvDCALAQkYQ9bpwzUyFOOa0nr3Fs0fc9HS8D14FjidSTez427/ZLYtLTYTsJPI26gt3xXklU0Bncgxm2awp2m2SU2PYMZ5dQ6BJkz+N2KNgdBi52e6mM3rQjq7RuKNlepMvAn1Jy1MYM7Dq6g92W852IzCo6yltm7MDtOq4Cn9Gp4xBYBQ4D32HtYD/LxiEBJtYxubCJnAkfizdGRdlp3RxRdLDeErqt6APgtCh2Rk4qOwmBU6LYRA4pOpDOkjeqothE9gRwrI19omRNUTYkbCK/o0Xhjp+i2ES+RgjEF99EsYk0IgTiiwVRbCLvIgTii3lRbCIvIgTii+dZNw9i9mI1Z6hpaNr+B+wXw3ZGloAnPf4SRcBj4IdcpP9HpsPG4oUHnR6WMMvIopdWi9RSN52RZeBWJ6YFwU3gb7eXNLaDusHHdoM+dhwnCkzkXK8kBPc8HeYhd/olASZ9cwUIXuQVphk54QjwvgAkmsBRVxKCocRQTBLHfUkIapjvEzHKyTsTaZQI/zE010/V4+Rbag0cWqwrysAVdKczi8BlIp2AKGGOX8zgtgRYAR5idtadWyvoHqo5wNpDNScw7Xtv8vwX8AVTOvOYRdEzrKn4FjYT/gNeSWt2b9vWyAAAAABJRU5ErkJggg=="> </h5>
+                  <p>El Puerto Nómade, situado a solo 100 metros de la playa de La Perla, en Mar del Plata, ofrece habitaciones cómodas con conexión wifi gratis. La tarifa incluye un desayuno diario con cruasanes. También se pueden reservar lecciones de surf.</p>
+                </div>
+
+            
+                
+                <div class="info_publi chico">
+                    
+                        <h5>Puesto <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEJklEQVRoge2a34tVVRTHP6Oj1x/kD1CvjmlCKtRfoOMvSE0GovGpNN99i2JMkiDQJyl9ESL88eqDkqiFhoIFYuBYCqGmo82Tpg85SjUxo+Mdrw/rHD1e9tpr73v3vfjgFxbM3HPWj+/Ze/3Y5154hZcLbQltTQdWAcuAt4E3gVnAZGAUuA88AO4CF4Be4Dzwb8IY6kYJ2AScBipANVJGgO+BbmCc4Wt7+vBhItAD3IkM3Cd3gc3AWIVENTWJLqA/IYFauQq85SCRjMgE4NsmEsjlENDuIJGESBm42AISVQ+JWonOmQXAny0iUXzqSUmUW0ziYQCRaBITiN9OFeAsUtGWIH1kHFLlXgeWZtdOAo9rdIeRQkKml4QExCX2ELATmBlhf04W2KCDxJVUJLoiSBwG5tbjJEMH0Jn9XSRxJfu/iHZkaghCCbjhCTyXJ8hTSjXmzAQuZ7avA7Nrro8FDmbX2glADzaJUeCDxmN/Bm0lupACUOt/s2WwRNjYsa1FJIYV/3cwVmVTAInDAcGtBQ4AfcD/yIR7FdjH83zwkej0kMjlfV8Apw3lIfyJvRgpv74+4apOtYndkT0AXyzHtSCmY4/iOz0kViLnjUZJ5NhhxDICTHUFst5QrKD3icWJSYCsSm3TrJV1LsXdhtJZxSGk2U4unDRicjbJE4ZSj+JsbYMkunixABTxmRHTjy6lm4bSEsXZgQZJPAT2KraXGTH97lIaMJS0/OhT7v88kEQV6eguzDNiuu1SemQojVec/afcPye7/ptBogr8o9ieZMQ0lN84RjGQEhXgErAa+BshcQyZIqw4Rg3bTr3UW8s1xmiz0zXFdtmI6Z5LyZp4lyrO9iv3P0LypCOTbQqJKvUn+3WXklV+tyjO1hh6IfKOYnurofdDfmNxjznZFdCtfH4Gf7O08HMmMT5zOGPuxs++gt6JFyHvdmNXYgB5R+xCGUl2n/57LsVp2EPjV4pTgBWRZAaA5R57uwz9EWCKpnzKUB5CmpSGhcg2sUj8hL4SAPOxzyMnPPp8FBDEd9jn9NXIIeoa8pZkEPgDqU5aYudoA44GxLHBZ6QE/BVg5AsjmEbwZYD/2+iTxjN8GmBoFPgwNQPkKVsJXgU+DjFWQu/WRUn5OqgNaZ4hJG7y4njjxboAg7kcwV8ALMwnLCfyh7cm1sE3EWSGga+R2h+KMlJirepUlD2xJECW79cIJ3nunENOdp1ZsOMzKWefbQV+IWwbFaWXgATXMIOwfGm29BO32k4swD4GN1NuAG80SiLHLOK3WQrpJe6riiCUkGR70iIS+4gos/XgXZq71fqoo8TWixLwCTIqpCJwC+nYTV0FDSVgI+7vBEPkMTLFbqCB0gppf1QzBflRzQrklwsLkUR9Lbs+iLxF6UdOdueQk+Vgwhhe4aXBU6H5TxQTnYb+AAAAAElFTkSuQmCC"></h5>
+                        <p>Busco Mozo/a para trabajar en el restaurant 'Lo de Emilio'</p>
+              
+                </div>
+            
+
+                
+                <div class="info_publi chico">
+                        
+                    <h5>Franja Horaria <img src="data:image/png;base64,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"> </h5>
+                    <p>Turno Noche: 7 p.m - 1 a.m</p>
+                </div>
+                 
+                
+                <div class="info_publi chico">
+                    
+                <h5>Horas al día <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABMUlEQVRoge2Zz07CQBCHP4yBg+F9iMgDGRNPXMTHIMYnQHgNfBUgxqsnY6r1ADU9sFuY3emAmS+Z9NDu9Pf1XzZdcBzHOQdGwALYAAVQKlUBrIE5cJMj+CXwrBi4qZ52GcRYhq9LiBidQPiqgo/TRUTg7lhjRW4lgzbYX/mq1hKBlK/NA3AFTDIJFKGQnYhAeaxxjR7wtdt+JvSpszerlkC9b0qfUM8/Yi/xWeAC1riANS5gjQtY04ZAJ1A94DFH8xA55kJN9IGPA3u2OpUYA92GY7rAfeqJtO6ABj6ZO0lcwBoXsOZfC3y3lqKZYJaYwLtCEClvoR0xgVeFIFKWkkED4Af734olMJQIwPbXtnX4qTQ8bBcXLCWmJC5wVAyBF2CF/hLTCpgB1zmCO47j6PIL4AlSExsfhWUAAAAASUVORK5CYII="> </h5>
+                <p>6 horas</p>
+                    
+                </div>
+
+                <div class="info_publi chico">
+                    
+                    <h5>Comidas incluídas <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACkUlEQVRoge2ZP2gUQRSHv7sYEwSJEJSoFxD/FGKrCEbEgK1gpYJgp5WVmEZEsFELG7VMYUihJILYiNoZowSbgAomIIIGRUg0JqIEUe8s3ltvctm93N3M3GRhPxjm9t3em9/vdmb23R5kZCTxAhgLLcKWdUAJmG00Qd6dFisOaz8RVIUlx4GfyBU5YcRTNdWuIgZKwE0j3qWxLyFE1ctRROwf4IwR7wSe6XvDAXTVTST2tBHbDLzT+EdgSwBddTOLCO4wYrc1No6YSgWjwNOK2AxiZFPz5bglzlxGRgLPKd8rbNto0iA5b/LLlBzni9W8Umota2yNtAEXgbfAgvYXgHbLvE2ljeT5P2Kc52p9xLVPwBVgdTWh24EhYBq5Cw8Dd4E5PX6tyd4DvcAa4KAem+vCp5GoXa5mYrrGJL0Vn90NzHs0YrKP8pWJJap5HgAFoBu4AVzX4wLQDwyy/M7n00i7xhYqB92GTJ/fekJhGZG14NPIRo19NoNbga/GB1zVPD6N7NTYop/IdzT4WE25wqeRHo2NgdsSIm5An0ZOamwoj6z8tLJL+zdpL1F6tB/PsfRyuSLall3nj/KuRTanHNCZB745HqhZHANakTX+HeAV6VvsLcBLPf7/UO9eCo306esPSPEKlLewtBg5jzzUKwKHjHHoQGqVtBgpAX+Bs8RwzcNgrZr7l8OcRWQpHIgzAfL/xEyVBI20Ls095TDnVJKB6IY4B5xi8ZSwJarXJh3mTMxl3tnvA5ccDrpf+4cOcz5ymCvDOyP42SKb2Z7kgfWuv5kAbGgBfgBHQiux5BzAKmRbCz09Gm2T6gGAvUgpHFpUvW0e2FN5eXYAA8jDruIKEJnUiqrxFvIgMSMjowb+AYwq/BeSz5AeAAAAAElFTkSuQmCC"> </h5>
+                    <p>No</p>
+                    
+                </div>
+                <div class="info_publi chico">
+                    
+                    <h5>Ubicación <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADX0lEQVRogd2a30sVQRTHP1e7JdIPNctIJcl+PIVBVA8RFBbSQ0UFIUFFED0a/QUVBFFE0VsFvQXVS0RF+OMhKDSol6AfGFlZJqWmlL/6ccnbw8xyr7p394y7s2t94XBnmTPnnO/O7Jkzuxf+EyQs2k4C5cBcfT0IdAMpiz5DwUxgJ3AZeIUKOD1BUrrvErADRXbaoAQ4CfQxOXA/6QWOA8WRR52FBHAE6MecwET5ChzG7lJ3RTFwJ0DgueQ2Ec5OBfDSAglHnqOShFWUAu0WSTjyBiizRSIJPI6AhCOtWMpqZyMk4cjpsEmsAn7HQCQF1EgClKa7+8A2oa6DAeAB8ElflwObUM+ZCe4B2w3HuKIGs7vYAxwC8l1s5QP7gc8G9sZQKyIwLho4fQ8s1eMSwAagQctGIE/3VQFvDeyeD4NIt9BZClivx5QBj1x0WoFFWmct7vWYm3wMSmKl0FEauKHHzACeeOg91ToA1w3sLw9CpN7AUZ3BmHqtW2dgf69XoHlencAKf64A/AHadHuPQH+3/m3TYyXwjMWPSJHQSR8wpNuSDOPoDKEqXwlKvDr9iBQInXzPakvIZ1e434Q+Znl1+hEZFjopzGr/EOiPZLVnC30MeXX6ERkQOllAJhN1CPQdnSTynd4zFj8ir4VOCsjURC0C/Wb9uxqfJTOFWFyxDHl6dCrV+Xif33vJPLhnDOw7FcOU0SV01I9aYgC1qDU9UWcQ2Kx1FqKWi8R2Z1ASAFeFztKoStU5DFWiZqkRaNLtSt2X1LpSu1fCILLVwGFaB13pailDsMnQZq1fkJLzSD5qaisEug5GUW9EWlBFJ6jzyBZgF+PTtR+6UNXymMGYnDiG2R0MUxrCIOCgEHVgiprEF4Sz57ePOBgFLgh1w8Q57TtUzEHtAVHNRg/y8sUYByIkss8WCQfNEZBotE0CVCoctkhiBKiOggjYTcdHoyIBaiO9ZYHEXWL4RlIEvAsYeLZ04nOctYl1wC+fACXyE1gTceyTcJBgJMZQr1GnBU4xdSInYog3JxLANcxJ3CSGh9sPBaiyXUqiGfl5PXIUAg/xJ9GGxToqLMxDvajOReIZMf9BwASlwAsmk2jH4tdaWyhj/KfsDmBxrBEFQBXwQcuSmGMJjGoirGb/efwF/ZAv2C11KE8AAAAASUVORK5CYII="> </h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12577.187517775365!2d-57.5465352!3d-37.9935352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9702606a8c996931!2sHostel%20Puerto%20N%C3%B3made!5e0!3m2!1ses-419!2sar!4v1670198202251!5m2!1ses-419!2sar" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+            
+            
+                <div class="info_publi chico">
+                    
+                    <h5>Tiempo de estadía <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAA20lEQVRoge2ayw6DIBBFL00/rrva/9/ZwG/YjRjSYosI4XZyT8JCHgOHiRMXAuXcADwBLGub175W9I6/MSebpJv9S/yNGHzveWj8S8ODDCUVeQAI+Ezvr5vZm3+0HY0fAEy5Bd8kchu2EjgT38fJ7m1hCXFNy/fjTHwHGHpHajLChq2MSIQNMyKCDZVfNiTChkTYuFascZm+peNYEWYyIhE2zIjoE4UNlV82JMKGGRGVXzZUftmQCBtmRFR+2ZAIGxJhIxUJw05Rj891TutArz8aWjcP4N7gMkQXXjdxqG1L7Y6IAAAAAElFTkSuQmCC"> </h5>
+                    <p>Máximo: 15 días</p>
+                    
+                </div>
+                <div class="info_publi chico">
+                    
+                    <h5>Contacto <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAADUElEQVRoge2aT0sVURjGf5UGodesMDVz0aKM2gStWgXRJjBdR20iioT+0KYyu9EyCCzBr9CmD1BQVESBmhVuotxEmyhCTa83wfJaizMDOnjvec+ZM2cmmB+8C+H4vs9zz5mZ8w9ycnJycrLLuoTztwNHgIPAgeDvDqAA/AHKwBTwGZgERoCXwLeEdTllC3AFGAOWgb8WMQpcArZ51m5EGzAM/MLO5FpRBu4DOzz60FIPFFHiXBmNxjxwDdjoyVNV9gPvSc5oNN4CXV6crUEvUNIITCLKQI8Hf6voAyoxhceJpUCDF/qwf/u6jGXgXMJe6SHdno1GBfVoJcI+0nlmdTEH7HVttg4Yz4C5ajGB+jw642YGTOniuiuz28nmUI5GGWh1YXg4A2akMRTXbDP6KaNvamlZQC1eqrJek/w00KBpUyeS6QZdrU3AqTgFRtEPo+44BQzpFugZsU3egWxGVQYGgCbbQgIKQQ3JiqyCetEac1KQfGVMoz5fLo03BTmnDbWcsCk2ZFgkjDngDuqFZ0sjav1rajSMuzZFn1sWC2MGtTFg0uMF7Ho0Gk9tDE8KkxcDc3GGehPqGZ0S5JFo+mhjeF6YHGAzcMvCuOQZnQJuoHofoaZZG8OLBoZXGihqDEwHbXTtokZDJJoWbQz/tjAc0ghcBr4Lc0R/kNtUf+lJcizYGJ6NYTgk/H7WGuphzARtoz0aRaLpp9jlCj4Jk0uo9Zkx/YxJNH0Q5lrFM2FyEwpAP/AliH70PRpFoumJYU4ABoXJfSPRVHXiUWu19M6dRu+M2/xTG7IdSt/o9FRQ2q14IyjgG52eV7X+WbcB8EAgYKegjSs6BW0exinQjP7485FQSFw6gccaLSUcLE9tl4lpxGBcswAt/B/btCUEOx0bBIYXgoRHBW3TpIjlOngtsn7UMoKs84zoQs170zYXjVlgt2uzIb1k67h0CTiWlNmQs2TjQLwSaPHCedSvm2bPnkncZYTjyPe9XD+ziQ/jauzB79t7jBSvLYXUA1dJdnIyF9TweXCnpR24h9thPo+6etji0YcxW4GLqMmAzdu8ArwGLpDAAV3S14dbgcPAIdRNm12o+W4D6t5kCfgaxATqauEL4EfCunJycnJyMsk/2vIA9Y/XBgwAAAAASUVORK5CYII="> </h5>
+                    <p><a href="mailto:bazinga"></a>emi_cuervo64@gmial.com</p>
+                  
+                </div>
+            </div>
+        
+          </div>
+            
+            
+            
+          </section>
+          
+          
+
+
+
+          
+
+
+    <footer class="footer4kolom">
+      <div class="menufoot">
+        <div class="menukiri">
+        </div>
+        <div class="menukanan">
+         <ul class='navi'>
+        
+    </ul>
+        </div>
+      </div>
+      <div class="mainfooter">
+        <div class="kolomftr">
+         
+          <div class='widget-content'>
+    <ul>
+      <div class="logoFooter"> <img src="../img/logo.png" alt=""> </div>
+      
+      
+    </ul>
+    </div>
+        </div>
+            <div class="kolomftr">
+              <h5>Services</h5>
+              <div class='widget-content'>
+    <ul>
+    <li><a href="#">Architecture Design</a></li>
+    <li><a href="#">Building Construction</a></li>
+    <li><a href="#">House Renovation</a></li>
+    <li><a href="#">Preconstruction &amp; Planning</a></li>
+    <li><a href="#">Special Projects</a></li>
+    </ul>
+    </div>
+        </div>
+            <div class="kolomftr">
+              <h5>Community</h5>
+              <div class='widget-content'>
+    <ul>
+    <li><a href="#">Architecture Design</a></li>
+    <li><a href="#">Building Construction</a></li>
+    <li><a href="#">House Renovation</a></li>
+    <li><a href="#">Preconstruction &amp; Planning</a></li>
+    <li><a href="#">Special Projects</a></li>
+    </ul>
+    </div>
+        </div>
+            <div class="kolomftr">
+              <h5>Quick Links</h5>
+              <div class='widget-content'>
+    <ul>
+    <li><a href="#">Architecture Design</a></li>
+    <li><a href="#">Building Construction</a></li>
+    <li><a href="#">House Renovation</a></li>
+    <li><a href="#">Preconstruction &amp; Planning</a></li>
+    <li><a href="#">Special Projects</a></li>
+    </ul>
+    </div>
+        </div>
+      </div>
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
