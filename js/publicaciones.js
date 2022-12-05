@@ -41,5 +41,5 @@ $(document).ready(function(){
 let product_item = document.getElementById('hos')
 
 product_item.addEventListener('click', () => {
-		alert('Es nesesario estar regsitado para continuar')
+		alert('Es necesario estar registrado para continuar')
 })
