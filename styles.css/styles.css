@@ -319,7 +319,8 @@ color: white;
       justify-content: space-around;
       align-items: center;
       flex-direction: column;
-      border: 1px solid rgba(0, 0, 0, 0.652);
+      padding: 5px;
+      border-radius: 10px;
   }
   .divImgAvatar{
       width: 100%;
@@ -365,9 +366,11 @@ color: white;
       font-family: "Noto Sans Buhid", sans-serif;
       font-size: small;
       color:black;
-      border: 1px solid rgba(0, 0, 0, 0.483);
+      box-shadow: 0px 0px 1.4px 0px black;
       background-color: white;
       transition: all .5s;
+      border-radius: 10px;
+
   }
   .linkedin:hover{
       background-color: #0b60dd;
@@ -889,11 +892,14 @@ color: white;
 
   /* Form voluntario */
 
-
 .div_velo{
   background-color: rgba(0, 0, 0, 0.542);
   height: 33rem;
   width: 100%;
+}
+
+.section_registro{
+  height: 33rem;
 }
 
 .form_voluntario {

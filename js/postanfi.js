@@ -1,4 +1,4 @@
-//\\***********\*\*\*\*\*\*\*\*\*\\\\\\\\\\\\\\Form//////////////*/*/*/*/*/*/*/*/*/***********//\\
+//Form
 
 //Varibles
 
@@ -9,9 +9,9 @@ let d_d_h = document.getElementById('d_d_h')
 let button1 = document.getElementById('button1')
 
 let form_post = document.getElementById('form_post')
-
+     
 function addElemento(n_d_l, t_d_h,
-  d_d_h){
+  d_d_h){   
     let h1 = document.getElementById("h1");
     let hl = document.createElement("h1");
     hl.innerHTML = n_d_l;
@@ -34,7 +34,7 @@ button1.addEventListener('click', () => {
   alert('Su publicacion fue creada con exito')
 })
 
-//\\***********\*\*\*\*\*\*\*\*\*\\\\\\\\\\\\\\Suvir imagen//////////////*/*/*/*/*/*/*/*/*/***********//\\
+// Suvir imagen
 
 const image_input = document.querySelector("#image-input");
 
